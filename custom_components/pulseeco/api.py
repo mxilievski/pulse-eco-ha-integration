@@ -1,3 +1,4 @@
+"""Provides common functions for the PulseEcoAPI."""
 from pulseeco import PulseEcoAPI
 import requests
 

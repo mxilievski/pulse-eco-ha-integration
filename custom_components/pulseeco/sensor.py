@@ -123,6 +123,7 @@ class PulseEcoSensor(Entity):
 
     @property
     def state(self):
+        """Return the state of the sensor."""
         return self._state
 
     @property

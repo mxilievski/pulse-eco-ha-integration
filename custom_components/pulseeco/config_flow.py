@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import logging
-from typing import Any, Optional
+from typing import Any
 
 import voluptuous as vol
 
@@ -26,13 +26,13 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle a config flow for Pulse.eco."""
 
     VERSION = 1
-    data: Optional[dict[str, Any]]
+    data: dict[str, Any] | None
 
     async def async_step_user(
         self, user_input: dict[str, Any] | None = None
     ) -> FlowResult:
         """Handle the initial step."""
-        errors: Optional[dict[str, Any]] = {}
+        errors: dict[str, Any] | None = {}
         if user_input is not None:
             try:
                 self.data = user_input
