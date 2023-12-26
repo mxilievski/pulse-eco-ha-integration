@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "city": "City",
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]"
+        }
+      },
+      "measuring_station_selection": {
+        "data": {
+          "selected_measuring_stations": "Select measuring stations"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Manage measuring stations",
+        "description": "Add/Remove measuring stations.",
+        "data": {
+          "selected_measuring_stations": "Select measuring stations"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "config": {
+        "step": {
+            "measuring_station_selection": {
+                "data": {
+                    "selected_measuring_stations": "Select measuring stations"
+                }
+            },
+            "user": {
+                "data": {
+                    "city": "City",
+                    "password": "Password",
+                    "username": "Username"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "selected_measuring_stations": "Select measuring stations"
+                },
+                "description": "Add/Remove measuring stations.",
+                "title": "Manage measuring stations"
+            }
+        }
+    }
+}
