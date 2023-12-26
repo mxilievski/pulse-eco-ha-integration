@@ -1,13 +1,13 @@
 {
+  "domain": "pulseeco",
+  "name": "Pulse.eco",
   "codeowners": [
     "@mxilievski"
   ],
   "config_flow": true,
   "documentation": "https://github.com/mxilievski/pulse-eco-ha-integration",
-  "domain": "pulseeco",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/mxilievski/pulse-eco-ha-integration/issues",
-  "name": "Pulse.eco",
   "requirements": [
     "pulse-eco-ha==1.0.0"
   ],
