@@ -9,7 +9,7 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/mxilievski/pulse-eco-ha-integration/issues",
   "requirements": [
-    "pulse-eco-ha==1.0.0"
+    "pulse-eco-ha==0.3.0"
   ],
   "version": "0.0.1"
 }
